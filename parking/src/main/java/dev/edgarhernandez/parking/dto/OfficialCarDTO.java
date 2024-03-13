@@ -1,6 +1,5 @@
 package dev.edgarhernandez.parking.dto;
 
-import dev.edgarhernandez.parking.entities.Car;
 import lombok.*;
 
 import java.time.LocalDateTime;

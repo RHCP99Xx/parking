@@ -1,6 +1,5 @@
 package dev.edgarhernandez.parking.service.implementation;
 
-import dev.edgarhernandez.parking.dto.OfficialCarDTO;
 import dev.edgarhernandez.parking.dto.StayDTO;
 import dev.edgarhernandez.parking.entities.Stay;
 import dev.edgarhernandez.parking.mapper.StayMapper;

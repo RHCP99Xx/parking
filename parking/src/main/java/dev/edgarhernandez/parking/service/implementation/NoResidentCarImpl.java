@@ -1,11 +1,8 @@
 package dev.edgarhernandez.parking.service.implementation;
 
 import dev.edgarhernandez.parking.dto.NoResidentCarDTO;
-import dev.edgarhernandez.parking.entities.Car;
 import dev.edgarhernandez.parking.entities.NoResidentCar;
-import dev.edgarhernandez.parking.entities.ResidentCar;
 import dev.edgarhernandez.parking.exceptions.ResourceNotFoundException;
-import dev.edgarhernandez.parking.mapper.CarMapper;
 import dev.edgarhernandez.parking.mapper.NoResidentCarMapper;
 import dev.edgarhernandez.parking.repositories.NoResidentCarRepository;
 import dev.edgarhernandez.parking.service.NoResidentCarService;
@@ -58,10 +55,5 @@ public class NoResidentCarImpl implements NoResidentCarService {
             throw new ResourceNotFoundException("El auto con la placa: " + plate + " no se encontró");
         }
         return NoResidentCarMapper.mapToNoResidentCarDto(updatedCarObj);
-    }
-
-    @Override
-    public NoResidentCarDTO updateCarIn(String carPLate) {
-        return null;
     }
 }

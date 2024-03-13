@@ -1,13 +1,8 @@
 package dev.edgarhernandez.parking.service.implementation;
 
 import dev.edgarhernandez.parking.dto.OfficialCarDTO;
-import dev.edgarhernandez.parking.dto.StayDTO;
-import dev.edgarhernandez.parking.entities.Car;
-import dev.edgarhernandez.parking.entities.NoResidentCar;
 import dev.edgarhernandez.parking.entities.OfficialCar;
 import dev.edgarhernandez.parking.exceptions.ResourceNotFoundException;
-import dev.edgarhernandez.parking.mapper.CarMapper;
-import dev.edgarhernandez.parking.mapper.NoResidentCarMapper;
 import dev.edgarhernandez.parking.mapper.OfficialCarMapper;
 import dev.edgarhernandez.parking.repositories.OfficialCarRepository;
 import dev.edgarhernandez.parking.service.OfficialCarService;
@@ -53,10 +48,5 @@ public class OfficialCarServiceImpl implements OfficialCarService {
             throw new ResourceNotFoundException("El auto con la placa: " + plate + " no se encontró");
         }
         return OfficialCarMapper.mapToOfficialCarDto(updatedCarObj);
-    }
-
-    @Override
-    public OfficialCarDTO updateCarIn(String carPLate) {
-        return null;
     }
 }

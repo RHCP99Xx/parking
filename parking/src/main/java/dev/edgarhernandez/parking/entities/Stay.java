@@ -1,6 +1,5 @@
 package dev.edgarhernandez.parking.entities;
 
-import dev.edgarhernandez.parking.dto.OfficialCarDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

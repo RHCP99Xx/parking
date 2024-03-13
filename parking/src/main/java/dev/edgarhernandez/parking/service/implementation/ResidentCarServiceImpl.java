@@ -8,9 +8,7 @@ import dev.edgarhernandez.parking.repositories.ResidentCarRepository;
 import dev.edgarhernandez.parking.service.ResidentCarService;
 import dev.edgarhernandez.parking.utilities.ThreeColumnData;
 import lombok.AllArgsConstructor;
-import org.springframework.jdbc.JdbcUpdateAffectedIncorrectNumberOfRowsException;
 import org.springframework.stereotype.Service;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,6 +1,5 @@
 package dev.edgarhernandez.parking.service;
 
-import dev.edgarhernandez.parking.dto.CarDTO;
 import dev.edgarhernandez.parking.dto.NoResidentCarDTO;
 
 public interface NoResidentCarService {
@@ -8,5 +7,4 @@ public interface NoResidentCarService {
     NoResidentCarDTO getNoResidentByPlate(String carPlate);
 
     NoResidentCarDTO updateCarOut(String carPLate);
-    NoResidentCarDTO updateCarIn(String carPLate);
 }

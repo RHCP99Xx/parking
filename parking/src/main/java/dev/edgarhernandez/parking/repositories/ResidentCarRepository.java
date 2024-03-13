@@ -1,6 +1,5 @@
 package dev.edgarhernandez.parking.repositories;
 
-import dev.edgarhernandez.parking.entities.OfficialCar;
 import dev.edgarhernandez.parking.entities.ResidentCar;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -3,8 +3,6 @@ package dev.edgarhernandez.parking.service;
 import dev.edgarhernandez.parking.dto.ResidentCarDTO;
 import dev.edgarhernandez.parking.entities.ResidentCar;
 import dev.edgarhernandez.parking.utilities.ThreeColumnData;
-
-import java.io.IOException;
 import java.util.List;
 
 public interface ResidentCarService {
