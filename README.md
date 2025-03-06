@@ -11,4 +11,4 @@ Abre el archivo `src/main/resources/application.properties` y busca las siguient
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/parking
 spring.datasource.username=postgres
-spring.datasource.password=password
+spring.datasource.password=****
